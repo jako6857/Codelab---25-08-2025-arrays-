@@ -70,12 +70,8 @@ console.log(myCabbage);
  sæt arrays myFruits og myVegetables sammen i en ny array der hedder myYummies
  */
 
-
-// din kode her...
-
-
-
-console.log(myYummies);
+ const myYummies = myFruits.concat(myVegetables);
+ console.log(myYummies);
 
 //.........................................................
 
@@ -86,8 +82,7 @@ console.log(myYummies);
 
 // din kode her...
 
-
-
+const myYummiesSort = myYummies.sort();
 console.log(myYummies);
 
 /* opgave 6 reverse()
@@ -97,6 +92,7 @@ console.log(myYummies);
 
 // din kode her...
 
+const myYummiesReverse = myYummies.reverse();
 console.log(myYummies);
 
 //.........................................................
