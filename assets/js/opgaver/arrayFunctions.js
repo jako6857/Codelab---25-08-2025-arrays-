@@ -43,16 +43,14 @@ let myVegetables = ['salat', 'blomkål', 'spidskål', 'agurk'];
  */
 
 // din kode her...
-
-
-
+const myFruitsSplice = myFruits.splice(2, 0, 'mandarin', 'fersken');
 console.log(myFruits);
 
 // opgave 3 fjern mandarin og fersken igen
 
 // din kode her...
 
-
+const myFruitsSpiceRemove = myFruits.splice(2, 2);
 console.log(myFruits);
 
 //.........................................................
@@ -63,8 +61,8 @@ og ind i en ny array der hedder myCabbage*/
 
 // din kode her...
 
-
-
+const myCabbage = myVegetables.slice(1, 3);
+console.log(myVegetables);
 console.log(myCabbage);
 
 //.........................................................
